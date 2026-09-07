@@ -4,6 +4,7 @@ class BaseReuse {
         await page.goto(url);
 
     }
+    //changes in the local
 
     static async clickElement(page, locator) {
         await page.click(locator);
